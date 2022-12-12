@@ -4,12 +4,6 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@ethersproject/experimental": "5.0.1",
-    "@nevellusswap/lib": "^1.1.1",
-    "@nevellusswap/liquidity-staker": "1.0.2",
-    "@nevellusswap/sdk": "3.0.3",
-    "@nevellusswap/token-lists": "1.0.0-beta.19",
-    "@nevellusswap/v2-core": "1.0.1",
-    "@nevellusswap/v2-periphery": "1.1.0-beta.0",
     "@popperjs/core": "2.9.2",
     "@reach/dialog": "0.15.0",
     "@reach/portal": "0.15.0",
@@ -92,7 +86,6 @@
   },
   "dependencies": {
     "@ethersproject/providers": "^5.5.0",
-    "@nevellusswap/default-token-list": "2.0.0",
     "dotenv": "^10.0.0",
     "web3-utils": "^1.5.3"
   },
