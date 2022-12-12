@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# misc
+.secret
+.env
+.env.production
+.env.production.local
+mod
+package-lock.json

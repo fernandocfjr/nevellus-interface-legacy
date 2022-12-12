@@ -1,0 +1,330 @@
+{
+  "contractName": "INevellusSwapV1Factory",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "getExchange",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/V1/INevellusSwapV1Factory.sol\":\"INevellusSwapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":1000},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/V1/INevellusSwapV1Factory.sol\":{\"keccak256\":\"0x3c1006cc9fb644ab9b9636f615b0c8397e02358f14f78d94a10e2aca9d971260\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://c86c063152cf100e24f6b2054e9ce5c98bfca27bf2eb5ac8e7fd31594eb67f9d\",\"dweb:/ipfs/QmV2qAbsWaJZQCwxP6dGsWVXc6UsQehw7oeLdntzEC8rWt\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: GPL-3.0\n\npragma solidity >=0.5.0;\n\ninterface INevellusSwapV1Factory {\n    function getExchange(address) external view returns (address);\n}\n",
+  "sourcePath": "C:\\Users\\ferna\\Desktop\\Projects\\Beta Projects\\From Start\\nevellusswap-periphery\\contracts\\interfaces\\V1\\INevellusSwapV1Factory.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/V1/INevellusSwapV1Factory.sol",
+    "exportedSymbols": {
+      "INevellusSwapV1Factory": [
+        7353
+      ]
+    },
+    "id": 7354,
+    "license": "GPL-3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 7345,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "37:24:22"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 7353,
+        "linearizedBaseContracts": [
+          7353
+        ],
+        "name": "INevellusSwapV1Factory",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "functionSelector": "06f2bf62",
+            "id": 7352,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getExchange",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 7348,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7347,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 7352,
+                  "src": "123:7:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 7346,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "123:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "122:9:22"
+            },
+            "returnParameters": {
+              "id": 7351,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7350,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 7352,
+                  "src": "155:7:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 7349,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "155:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "154:9:22"
+            },
+            "scope": 7353,
+            "src": "102:62:22",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 7354,
+        "src": "63:103:22"
+      }
+    ],
+    "src": "37:130:22"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/interfaces/V1/INevellusSwapV1Factory.sol",
+      "exportedSymbols": {
+        "INevellusSwapV1Factory": [
+          7353
+        ]
+      },
+      "license": "GPL-3.0"
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 7345,
+        "name": "PragmaDirective",
+        "src": "37:24:22"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            7353
+          ],
+          "name": "INevellusSwapV1Factory",
+          "scope": 7354
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "functionSelector": "06f2bf62",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getExchange",
+              "overrides": null,
+              "scope": 7353,
+              "stateMutability": "view",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "overrides": null,
+                      "scope": 7352,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 7346,
+                        "name": "ElementaryTypeName",
+                        "src": "123:7:22"
+                      }
+                    ],
+                    "id": 7347,
+                    "name": "VariableDeclaration",
+                    "src": "123:7:22"
+                  }
+                ],
+                "id": 7348,
+                "name": "ParameterList",
+                "src": "122:9:22"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "overrides": null,
+                      "scope": 7352,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 7349,
+                        "name": "ElementaryTypeName",
+                        "src": "155:7:22"
+                      }
+                    ],
+                    "id": 7350,
+                    "name": "VariableDeclaration",
+                    "src": "155:7:22"
+                  }
+                ],
+                "id": 7351,
+                "name": "ParameterList",
+                "src": "154:9:22"
+              }
+            ],
+            "id": 7352,
+            "name": "FunctionDefinition",
+            "src": "102:62:22"
+          }
+        ],
+        "id": 7353,
+        "name": "ContractDefinition",
+        "src": "63:103:22"
+      }
+    ],
+    "id": 7354,
+    "name": "SourceUnit",
+    "src": "37:130:22"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.12+commit.27d51765.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.8",
+  "updatedAt": "2022-09-30T05:10:26.954Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
