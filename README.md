@@ -34,6 +34,8 @@ Install dependencies for this project, run
 npm install
 ```
 * **Postinstall:** Copy the content in _cp_ folder and paste in to the _node_modules_
+* **Setup ENV:** Using the _template env_, create an JSON-RPC api key and fill the inputs.
+_Without this env, the interface doesn't run!!!_
 
 ## Dev
 
