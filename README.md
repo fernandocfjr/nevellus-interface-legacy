@@ -19,7 +19,7 @@
 
 #### Diferences:
 
-* This interface runs without any API _cheers_ 
+* This interface runs without any API  
 _The new interface [app.nevellus.com](https://app.nevellus.com) needs a set of APIs_  
 
 * New interface have **Multi-lang** switch  
